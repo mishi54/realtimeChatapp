@@ -80,7 +80,7 @@ const SignUp=()=> {
         </div>
         <div>
           <label className='label p-2'>
-            <span className='text-base label-text'>Password</span>
+            <span className='text-base label-text'>Confirm Password</span>
           </label>
           <input
           type='password'
@@ -102,7 +102,13 @@ const SignUp=()=> {
         >{"Already"} have an account ? login now</Link>
         <div>
           <button className='btn btn-block btn-sm mt-2 bg-blue-700
-          font-bold text-white'>SignUp</button>
+          font-bold text-white' disabled={loading}>
+            {loading ? (
+          <span className='loading loading-spinner'></span>  
+          ):(
+              "Sign Up"
+            )}
+            </button>
         </div>
       </form>
       

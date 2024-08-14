@@ -6,6 +6,7 @@ import authRoutes from "./routes/authroutes.js"
 import { errorHandler } from "./utils/errorHandler.js"
 import messageRoutes from "./routes/messageroutes.js"
 import userRoutes from "./routes/userroutes.js"
+import { server,app } from "./socket/socket.js"
 dotenv.config()
 mongoose.connect(process.env.MONGO_URL).then(()=>
 {
@@ -17,7 +18,7 @@ mongoose.connect(process.env.MONGO_URL).then(()=>
 
 })
 
-const app= express()
+// const app= express()
 app.use(express.json())
 app.use(cookieParser())
 app.get('/',(req,res,next)=>
@@ -56,7 +57,7 @@ app.use((err,req,res,next)=>
 
 
 const PORT=process.env.PORT
-app.listen(PORT,()=>
+server.listen(PORT,()=>
 {
     console.log("Server is listening your connection is now setup" + PORT)
 })

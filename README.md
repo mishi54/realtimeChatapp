@@ -32,6 +32,37 @@
 8.	npm i bcrypt cookie-parser dotenv jsonwebtoken mongoose socket.io
 Website for adding avatar profile:
 https://avatar-placeholder.iran.liara.run/
+**Screenshot of Apps:**
+**SignUp:**
+![image](https://github.com/user-attachments/assets/32d4ceca-11b8-43b8-8617-88bfaf0bbe77)
+
+**Login:**
+![image](https://github.com/user-attachments/assets/1734f66e-0da9-4eec-83e1-fde24ee0101c)
+**Dashboard**
+![image](https://github.com/user-attachments/assets/91042eb6-6f29-4ed6-b4bb-eca615992afd)
+**Online Activity And Starting Conversation Preview:**
+![image](https://github.com/user-attachments/assets/d712d082-fc4e-4e15-a302-499922ebc7fb)
+**Conversation**
+![image](https://github.com/user-attachments/assets/a4f27d59-2416-4864-8e30-1318c60ec6fa)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
